@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #29a060;
+  --secondary: #6c6c6c;
+  --accent: #586f7c;
+  --info: #00bfff;
+  --light: #F4F4F9;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+  @apply max-w-[1340px] mx-auto px-4;
+}
