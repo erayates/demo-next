@@ -16,7 +16,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 export default function HeroSlider() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  // const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <section id="hero-slider" className="container-fluid">
@@ -24,7 +24,7 @@ export default function HeroSlider() {
         loop={true}
         spaceBetween={10}
         navigation={true}
-        thumbs={{ swiper: thumbsSwiper }}
+        // thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Thumbs]}
         className="border border-secondary/50 shadow-2xl rounded-xl relative"
       >
