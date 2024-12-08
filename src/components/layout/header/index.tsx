@@ -1,5 +1,4 @@
 import { NavigationLink } from "@/types/navigation";
-import { cn } from "@/utils/cn";
 import Link from "next/link";
 import React from "react";
 import SearchBar from "./search-bar";
